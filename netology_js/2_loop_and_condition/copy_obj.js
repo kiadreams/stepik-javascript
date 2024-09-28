@@ -1,4 +1,4 @@
-import { createPerson } from "./create_person";
+import createPerson from "create_person";
 
 // const createPerson = function (name, age, gender, mail) {
 //     const person = {
