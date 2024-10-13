@@ -1,0 +1,28 @@
+const number = null;
+
+console.log(number);
+console.log(typeof number);
+console.log("------------------INFINITY----------------");
+console.log(1 / 0);
+console.log(-1 / 0);
+console.log("------------------NaN----------------");
+console.log(0 / 0);
+console.log('sdf' / 2);
+console.log("------------------INCREMENT----------------");
+let a = 5;
+console.log(a++);
+console.log(a);
+console.log("------------------СРАВНЕНИЕ----------------");
+console.log(NaN > 1);
+console.log(undefined == 0);
+console.log(undefined == null);
+console.log(undefined == NaN);
+console.log(undefined === 0);
+console.log('2' > '12');
+console.log("------------------АССОЦИАТИВНОСТЬ----------------");
+x = y = 5 - 2;
+console.log(x, y);
+console.log("------------------ОПЕРАТОП_НУЛЕВОГО_ЗНАЧЕНИЯ----------------");
+let z = undefined;
+let b = null;
+console.log(b ?? '' ?? z);
