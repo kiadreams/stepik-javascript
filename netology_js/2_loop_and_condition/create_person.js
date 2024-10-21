@@ -46,11 +46,11 @@ export const createPerson = function (name, age, gender, mail) {
      */
 }
 
-/* let person = createPerson("Родион", 27, "муж", "somebox@mail.ru");
+let person = createPerson("Родион", 27, "муж", "somebox@mail.ru");
 
 console.log(person.sayHi());
 
 person = createPerson("Анастасия", 21, "жен", "cutebox@ya.ru");
-console.log(person.sayHi()); */
+console.log(person.sayHi());
 
 // console.log(person);

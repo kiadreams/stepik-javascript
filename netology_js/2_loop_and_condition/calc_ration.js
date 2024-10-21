@@ -27,7 +27,6 @@ const calcSummaryRate = function (dailyRation) {
     dinner: 564,
 };
 
-
 mondayRation = calcSummaryRate(mondayRation);
 
 console.log(mondayRation.summary);

@@ -26,18 +26,3 @@ console.log(num);
 
 
 console.log(absolute(-0))
-
-if (-1) {
-    console.log("-1 как тру");
-}
-if (1) {
-    console.log('1 как тру');
-}
-if (!0) {
-    console.log('!0 как тру');
-}
-if (0) {
-    console.log('0 как тру');
-} else {
-    console.log('0 как фолс');
-}
