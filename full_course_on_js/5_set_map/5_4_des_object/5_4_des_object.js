@@ -20,12 +20,14 @@ const obj = {
 
 // Первый вариант...
 let {
-  apple: fruitOne,
+  apple,
+  melon,
   pear: fruitTwo,
   notValue: any = 'someFruit',
 } = obj.fruits;
 
-console.log(fruitOne);
+console.log(apple);
+console.log(melon);
 console.log(fruitTwo);
 console.log(any); // Будет underfind т.к. в оbj нет таково параметра...
 
@@ -35,9 +37,9 @@ let melon1 = 'littleFruit';
 let watermelon1 = 'largeFruit';
 
 // Второй вариант...
-({ fruits: { melon: melon1, watermelon: watermelon1 } } = obj);
+({ fruits: { melon, watermelon: watermelon1 } } = obj);
 
-console.log(melon1);
+console.log(melon);
 console.log(watermelon1);
 
 
